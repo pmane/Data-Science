@@ -6,11 +6,11 @@ Time Series Experiments
 Financial time series is fundamental to the field, and predicting stock price has been a challenging problem to solve. I am going to attempt to use CRISP-DM approach to understand the patterns in data and answer some practical questions about investment decisions investors need to make.
 
  Questions asked
--What is the level of risk — nature of the distribution of returns?
--What is the contribution of trend, seasonality, and noise (risk)?
--Which features are co-related most with a price?
--Does price have some memory of past — autoregressive structure?
--Can we predict stock price directional movement or price itself?
+- What is the level of risk — nature of the distribution of returns?
+- What is the contribution of trend, seasonality, and noise (risk)?
+- Which features are co-related most with a price?
+- Does price have some memory of past — autoregressive structure?
+- Can we predict stock price directional movement or price itself?
 
 The project explains how the CRISP-DM process can be applied to financial time series data. CRISP-DM is the cross-industry process for data mining. It is a structured approach to planning a data mining project. Code along with the medium article (https://disruptivenext.medium.com/crisp-dm-for-financial-time-series-b4e01fcb4e8b) explains how meaningful patterns can be detected in Financial time series data. Project further proposes key questions that can help the investor to make investment decisions.
 
