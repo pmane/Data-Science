@@ -1,7 +1,7 @@
 # Data-Science
 Time Series Experiments
-**
-Project Motivation -**
+
+**Project Motivation -**
 
 Financial time series is fundamental to the field, and predicting stock price has been a challenging problem to solve. I am going to attempt to use CRISP-DM approach to understand the patterns in data and answer some practical questions about investment decisions investors need to make.
 
@@ -28,8 +28,8 @@ The project explains how the CRISP-DM process can be applied to financial time s
 10.scikit_learn==0.24.1
 11.scikitplot==0.1.1
 12.talib==0.1.1
-**
-Files in the Repository**
+
+**Files in the Repository**
 
 **DataAgreegator.ipynb** - Program to download data from yahoo finance  
 1.yfinance library to download market data 
