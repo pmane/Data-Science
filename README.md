@@ -16,32 +16,23 @@ The project explains how the CRISP-DM process can be applied to financial time s
 
 
 **Requirements**
--TA_Lib==0.4.19
--scikit_plot==0.3.7
--yfinance==0.1.54
--scipy==1.4.1
--numpy==1.18.1
--statsmodels==0.11.0
--pandas==1.0.1
--seaborn==0.10.0
--matplotlib==3.1.3
--scikit_learn==0.24.1
--scikitplot==0.1.1
--talib==0.1.1
+- TA_Lib==0.4.19
+- scikit_plot==0.3.7
+- yfinance==0.1.54
+- scipy==1.4.1
+- numpy==1.18.1
+- statsmodels==0.11.0
+- pandas==1.0.1
+- seaborn==0.10.0
+- matplotlib==3.1.3
+- scikit_learn==0.24.1
+- scikitplot==0.1.1
+- talib==0.1.1
 
 **Files in the Repository**
-
-**DataAgreegator.ipynb** - Program to download data from yahoo finance  
-1.yfinance library to download market data 
-2.TA-lib is used to add more features to capture various aspects like momentum, volatility , moving averages, etc.
-
-**EDA.ipynb** - Exploratory data analysis for financial time series
-1.Standard DS libs like Numpy, Panda , seaborn, matplot and scikitplot
-2.Statsmodels for SimpleExpSmoothing
-3.Sklearn 
-
-**Model.ipynb** - Simple linear regression model for financial time series 
-1.Standard DS libs like Numpy, Panda , seaborn, matplot and 		 scikitplot,Sklearn
+- DataAgreegator.ipynb - Program to download data from yahoo finance  
+- EDA.ipynb - Exploratory data analysis for financial time series
+- Model.ipynb - Simple linear regression model for financial time series 
 
 Data source used
 Basic data is downloaded from yfainance then augmented with additional features using TA-Lib.
@@ -49,5 +40,5 @@ Basic data is downloaded from yfainance then augmented with additional features 
 **Results**
 Summary has been elaboarted in https://disruptivenext.medium.com/crisp-dm-for-financial-time-series-b4e01fcb4e8b.
 
-Acknowledgment
+**Acknowledgment**
 All of the content is purely based on my work experience in the financial field. API documentation from respective libraries is used to understand how to use the API.
